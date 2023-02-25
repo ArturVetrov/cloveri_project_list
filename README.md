@@ -10,7 +10,7 @@
 
 ## Напишите код, который бы автоматически отрисовывал блок со списком проектов.
 
-+ 
++ https://arturvetrov.github.io/cloveri_project_list/
 
 ## Screenshot
-![Screenshot](/cloveri-project-list/img/1.png)
+<img src="./img/1.png" alt="Screenshot" style="max-width: 50%; margin: 0 auto;display: block;">
