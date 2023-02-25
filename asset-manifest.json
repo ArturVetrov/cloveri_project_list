@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cloveri_project_list/static/css/main.81c9981f.css",
+    "main.js": "/cloveri_project_list/static/js/main.cab8d7c0.js",
+    "index.html": "/cloveri_project_list/index.html",
+    "main.81c9981f.css.map": "/cloveri_project_list/static/css/main.81c9981f.css.map",
+    "main.cab8d7c0.js.map": "/cloveri_project_list/static/js/main.cab8d7c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81c9981f.css",
+    "static/js/main.cab8d7c0.js"
+  ]
+}
