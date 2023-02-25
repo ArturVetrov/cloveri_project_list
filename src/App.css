@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+#app {
+  margin: auto;
+  max-width: 1200px;
+}
+
+#app > h1 {
+  font-size: 46px;
+  font-weight: 600;
+  margin: 50px 30px;
+}
+
+div .projectList {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div .project {
+  background-color: rgb(243, 246, 249);
+  text-align: left;
+  border-radius: 20px;
+  height: 193px;
+  cursor: pointer;
+  padding: 30px 30px 40px;
+  width: 100%;
+  max-width: 560px;
+  margin: 20px 20px;
+  transition: all 200ms ease;
+}
+
+div .project:hover {
+  -webkit-box-shadow: 0px 5px 21px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 21px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 21px 2px rgba(34, 60, 80, 0.2);
+}
+
+div .projectSale {
+  background-color: #2e3192;
+  text-align: left;
+  border-radius: 20px;
+  height: 193px;
+  cursor: pointer;
+  padding: 30px 30px 40px;
+  width: 100%;
+  max-width: 560px;
+  margin: 20px 20px;
+}
+
+div .project > h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 20px;
+}
+
+div .project > p {
+  color: #787878;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+div .project > a {
+  text-decoration: none;
+  color: #2e3192;
+  font-weight: 700;
+  
+}
+
+div .projectSale > h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.55;
+}
+
+div .projectSale > h1:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+div .projectSale > a {
+  text-decoration: none;
+  color: #F0D031;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  #app {
+    max-width: 940px;
+  }
+
+  div .project {
+    max-width: 450px;
+    margin: 10px;
+    height: 218px;
+  }
+
+  div .projectSale {
+    max-width: 450px;
+    margin: 10px;
+    height: 218px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #app > h1 {
+    text-align: center;
+  }
+
+  div .projectList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div .project {
+    height: 188px;
+    max-width: 600px;
+  }
+
+  div .projectSale {
+    height: 188px;
+    max-width: 600px;
+  }
+}
